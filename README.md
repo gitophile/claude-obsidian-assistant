@@ -5,7 +5,7 @@ A starter Obsidian vault wired for Claude Code. Fork it, open it, and let Claude
 ![Workspace Example](screenshots/workspace-example.jpg)
 *My custom workspace in Obsidian.*
 
-The repository is simple, give Claude and yourself a structured place to write, and tell it what you want. The vault comes with a Johnny Decimal folder system, a `/obsidian` skill for syncing projects, and some themes to make it more fun. Everything else is just you explaining your preferences to Claude and letting it build from there.
+The repository is simple, give Claude and yourself a structured place to write, and tell it what you want. The vault comes with a Johnny Decimal folder system, a `/obsidian` skill for syncing projects, and some themes to make it more fun. There's also a `CLAUDE.md` at the root that gives Claude context on how the vault works. **It's a template meant to be adjusted after setup**, but it helps initialize Claude with some understanding of the structure faster. You can go in without it and probably be fine. Everything else is just you explaining your preferences to Claude and letting it build from there.
 
 ## Get Started
 
