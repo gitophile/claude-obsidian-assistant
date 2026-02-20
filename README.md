@@ -29,9 +29,9 @@ The skill file is `claude-code/obsidian-sync.md` — read through it to see exac
 
 ### Architecture Canvases
 
-One of the skill's options generates a visual architecture diagram of your project as an Obsidian canvas file. Claude reads your codebase — entry points, routes, services, models, external dependencies — and maps them into a layered, color-coded diagram with connection arrows showing data flow.
+One of the skill's options generates a visual architecture diagram of your project as an Obsidian canvas file. Claude reads your codebase; entry points, routes, services, models, external dependencies — and maps them into a layered, color-coded diagram with connection arrows showing data flow.
 
-Each canvas groups nodes by layer (entry, API, services, data, external) so you can see at a glance how your project fits together. The diagrams are native Obsidian `.canvas` files, so you can rearrange, annotate, and extend them directly in the app.
+Each canvas groups nodes by layer (entry, API, services, data, external, etc) so you can see at a glance how your project fits together. The diagrams are native Obsidian `.canvas` files, so you can rearrange, annotate, and extend them directly in the app. Works as nice visual feedback to better organize systems.
 
 ![Architecture Canvas](screenshots/architecture-canvas.png)
 
