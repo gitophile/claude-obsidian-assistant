@@ -1,0 +1,15 @@
+{
+	"nodes":[
+		{"id":"root","type":"text","text":"## ~/.claude/","x":160,"y":0,"width":300,"height":80,"color":"2"},
+		{"id":"commands","type":"text","text":"## commands/\ncustom slash commands you define","x":-100,"y":180,"width":260,"height":80,"color":"6"},
+		{"id":"settings","type":"text","text":"## settings.json\nglobal Claude Code config","x":200,"y":180,"width":260,"height":80,"color":"3"},
+		{"id":"claudemd","type":"text","text":"## CLAUDE.md\npersistent context/instructions Claude always reads","x":500,"y":180,"width":260,"height":100,"color":"5"},
+		{"id":"obsidian","type":"text","text":"## obsidian.md\n/obsidian triggers this prompt","x":-100,"y":360,"width":260,"height":80,"color":"1"}
+	],
+	"edges":[
+		{"id":"e1","fromNode":"root","fromSide":"bottom","toNode":"commands","toSide":"top"},
+		{"id":"e2","fromNode":"root","fromSide":"bottom","toNode":"settings","toSide":"top"},
+		{"id":"e3","fromNode":"root","fromSide":"bottom","toNode":"claudemd","toSide":"top"},
+		{"id":"e4","fromNode":"commands","fromSide":"bottom","toNode":"obsidian","toSide":"top"}
+	]
+}
