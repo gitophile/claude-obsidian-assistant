@@ -6,7 +6,14 @@
 		{"id":"writing","type":"text","text":"## 20-29 Writing\nEssays, notes, daily journal","x":-500,"y":100,"width":280,"height":100,"color":"3"},
 		{"id":"knowledge","type":"text","text":"## 30-39 Knowledge\nResources, reading list","x":300,"y":100,"width":280,"height":100,"color":"5"},
 		{"id":"tracking","type":"text","text":"## 40-49 Tracking\nFinance, routines, to-dos","x":-500,"y":350,"width":280,"height":100,"color":"4"},
-		{"id":"creative","type":"text","text":"## 50-59 Creative\nDrawings, media, experiments","x":300,"y":350,"width":280,"height":100,"color":"6"}
+		{"id":"creative","type":"text","text":"## 50-59 Creative\nDrawings, media, experiments","x":300,"y":350,"width":280,"height":100,"color":"6"},
+		{"id":"n_home","type":"text","text":"## 00.01 Home\nDashboard","x":-820,"y":-270,"width":240,"height":80,"color":"0"},
+		{"id":"n_example","type":"text","text":"## 11.01 Example Project\nWeather dashboard (placeholder)","x":620,"y":-270,"width":260,"height":80,"color":"2"},
+		{"id":"n_scratch","type":"text","text":"## 22.01 Scratch Pad","x":-820,"y":80,"width":240,"height":80,"color":"3"},
+		{"id":"n_daily","type":"text","text":"## 2026-02-21\nDaily note","x":-820,"y":180,"width":240,"height":80,"color":"3"},
+		{"id":"n_resources","type":"text","text":"## 31.01 Resources","x":620,"y":80,"width":240,"height":80,"color":"5"},
+		{"id":"n_reading","type":"text","text":"## 32.01 Reading List","x":620,"y":180,"width":240,"height":80,"color":"5"},
+		{"id":"n_todos","type":"text","text":"## 42.01 To-Dos","x":-820,"y":370,"width":240,"height":80,"color":"4"}
 	],
 	"edges":[
 		{"id":"e1","fromNode":"center","fromSide":"left","toNode":"system","toSide":"right"},
@@ -14,6 +21,13 @@
 		{"id":"e3","fromNode":"center","fromSide":"left","toNode":"writing","toSide":"right"},
 		{"id":"e4","fromNode":"center","fromSide":"right","toNode":"knowledge","toSide":"left"},
 		{"id":"e5","fromNode":"center","fromSide":"left","toNode":"tracking","toSide":"right"},
-		{"id":"e6","fromNode":"center","fromSide":"right","toNode":"creative","toSide":"left"}
+		{"id":"e6","fromNode":"center","fromSide":"right","toNode":"creative","toSide":"left"},
+		{"id":"e7","fromNode":"n_home","fromSide":"right","toNode":"system","toSide":"left"},
+		{"id":"e8","fromNode":"n_example","fromSide":"left","toNode":"projects","toSide":"right"},
+		{"id":"e9","fromNode":"n_scratch","fromSide":"right","toNode":"writing","toSide":"left"},
+		{"id":"e10","fromNode":"n_daily","fromSide":"right","toNode":"writing","toSide":"left"},
+		{"id":"e11","fromNode":"n_resources","fromSide":"left","toNode":"knowledge","toSide":"right"},
+		{"id":"e12","fromNode":"n_reading","fromSide":"left","toNode":"knowledge","toSide":"right"},
+		{"id":"e13","fromNode":"n_todos","fromSide":"right","toNode":"tracking","toSide":"left"}
 	]
 }
