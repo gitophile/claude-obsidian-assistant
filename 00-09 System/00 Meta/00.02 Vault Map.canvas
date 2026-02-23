@@ -13,7 +13,8 @@
 		{"id":"n_daily","type":"text","text":"## 2026-02-21\nDaily note","x":-820,"y":180,"width":240,"height":80,"color":"3"},
 		{"id":"n_resources","type":"text","text":"## 31.01 Resources","x":620,"y":80,"width":240,"height":80,"color":"5"},
 		{"id":"n_reading","type":"text","text":"## 32.01 Reading List","x":620,"y":180,"width":240,"height":80,"color":"5"},
-		{"id":"n_todos","type":"text","text":"## 42.01 To-Dos","x":-820,"y":370,"width":240,"height":80,"color":"4"}
+		{"id":"n_todos","type":"text","text":"## 42.01 To-Dos","x":-820,"y":370,"width":240,"height":80,"color":"4"},
+		{"id":"n_claude","type":"text","text":"## 11.02 Claude Obsidian Assistant\nObsidian vault + Claude Code skill system","x":620,"y":-150,"width":260,"height":80,"color":"2"}
 	],
 	"edges":[
 		{"id":"e1","fromNode":"center","fromSide":"left","toNode":"system","toSide":"right"},
@@ -28,6 +29,7 @@
 		{"id":"e10","fromNode":"n_daily","fromSide":"right","toNode":"writing","toSide":"left"},
 		{"id":"e11","fromNode":"n_resources","fromSide":"left","toNode":"knowledge","toSide":"right"},
 		{"id":"e12","fromNode":"n_reading","fromSide":"left","toNode":"knowledge","toSide":"right"},
-		{"id":"e13","fromNode":"n_todos","fromSide":"right","toNode":"tracking","toSide":"left"}
+		{"id":"e13","fromNode":"n_todos","fromSide":"right","toNode":"tracking","toSide":"left"},
+		{"id":"e14","fromNode":"n_claude","fromSide":"left","toNode":"projects","toSide":"right"}
 	]
 }
